@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href /ama-landing-page/ && npx angular-cli-ghpages --dir=dist/ama-landing-page/browser"
+    "deploy": "ng build --configuration production --base-href /AmaLandingPage/ && npx angular-cli-ghpages --dir=dist/ama-landing-page/browser"
   },
   "private": true,
   "dependencies": {
