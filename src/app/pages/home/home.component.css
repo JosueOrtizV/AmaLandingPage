@@ -125,8 +125,12 @@ swiper-slide {
 }
 
 .swiper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .img-title {
@@ -134,9 +138,17 @@ swiper-slide {
     font-size: 1rem;
 }
 
-@media (max-width: 992px) {
-    
+@media (max-width: 1200px) {
+    .home-image {
+        max-width: 450px;
+    }
     .home-image img {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-image {
         max-width: 300px;
     }
 }
@@ -158,9 +170,6 @@ swiper-slide {
 
     .home-image {
         width: 100%;
-    }
-
-    .home-image img {
-        max-width: 70%;
+        max-width: 100%;
     }
 }
