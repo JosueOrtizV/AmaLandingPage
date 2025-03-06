@@ -1,0 +1,1 @@
+import{Ma as n,Na as a,Wa as r,Z as o,ab as i}from"./chunk-6JQSRDBM.js";var u=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=o({type:e,selectors:[["app-about"]],standalone:!0,features:[i],decls:2,vars:0,template:function(t,m){t&1&&(n(0,"p"),r(1,"about works!"),a())}})}return e})();export{u as AboutComponent};

@@ -1,0 +1,1 @@
+import{Ma as o,Na as r,Wa as i,Z as n,ab as s}from"./chunk-6JQSRDBM.js";var c=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-memberships"]],standalone:!0,features:[s],decls:2,vars:0,template:function(t,p){t&1&&(o(0,"p"),i(1,"memberships works!"),r())}})}return e})();export{c as MembershipsComponent};

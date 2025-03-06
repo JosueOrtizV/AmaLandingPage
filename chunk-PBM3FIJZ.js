@@ -1,0 +1,1 @@
+import{Ma as o,Na as i,Wa as p,Z as n,ab as a}from"./chunk-6JQSRDBM.js";var u=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-singup"]],standalone:!0,features:[a],decls:2,vars:0,template:function(t,s){t&1&&(o(0,"p"),p(1,"singup works!"),i())}})}return e})();export{u as SingupComponent};

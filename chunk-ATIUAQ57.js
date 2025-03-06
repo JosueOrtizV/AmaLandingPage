@@ -1,0 +1,1 @@
+import{Ma as o,Na as i,Wa as a,Z as n,ab as r}from"./chunk-6JQSRDBM.js";var s=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-login"]],standalone:!0,features:[r],decls:2,vars:0,template:function(t,m){t&1&&(o(0,"p"),a(1,"login works!"),i())}})}return e})();export{s as LoginComponent};

@@ -1,0 +1,1 @@
+import{Ma as o,Na as a,Wa as m,Z as n,ab as r}from"./chunk-6JQSRDBM.js";var c=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-game"]],standalone:!0,features:[r],decls:2,vars:0,template:function(t,p){t&1&&(o(0,"p"),m(1,"game works!"),a())}})}return e})();export{c as GameComponent};
