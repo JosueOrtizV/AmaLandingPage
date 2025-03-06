@@ -1,0 +1,43 @@
+<header>
+    <a class="logo" [routerLink]="['/']" (click)="closeToggler()">
+        <img src="/assets/img/company_logo.png" alt="Logo de Ama Earth Group">Ama Earth Group
+    </a>
+
+    <nav [ngClass]="{'open': isMenuOpen}">
+        <ul class="desktop-menu">
+            <li>
+                <a class="nav-item" [routerLink]="['/']" routerLinkActive="actived" (click)="closeToggler()">
+                    About
+                </a>
+            </li>
+            <li>
+                <a class="nav-item" [routerLink]="['/']" routerLinkActive="actived" (click)="closeToggler()">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a class="nav-item" [routerLink]="['/']" routerLinkActive="actived" (click)="closeToggler()">
+                    Memberships
+                </a>
+            </li>
+            <li>
+                <a class="nav-item" [routerLink]="['/']" routerLinkActive="actived" (click)="closeToggler()">
+                    Dashboard
+                </a>
+            </li>
+            <li>
+                <a class="nav-item" [routerLink]="['/']" routerLinkActive="actived" (click)="closeToggler()">
+                    Game
+                </a>
+            </li>
+            <li>
+                <a class="nav-item" [routerLink]="['/']" (click)="closeToggler()">
+                    <img src="assets/img/profile.png" alt="Profile">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <button class="menu-toggler" (click)="isMenuOpen = !isMenuOpen">
+        ☰
+    </button>
+</header>

@@ -1,0 +1,37 @@
+<section id="home" class="home-section">
+    <div class="home-content">
+        <h1>Welcome to Ama Earth Group</h1>
+        <p>
+            Empowering environmental professionals through cutting-edge AI solutions. 
+            Discover insights about nature, ecosystems, and more—designed to protect and regenerate our planet.
+        </p>
+        <form (ngSubmit)="onSubmit()" class="question-form">
+            <label for="question-input">Curious about nature? Ask a question.</label>
+            <input
+            id="question-input"
+            type="text"
+            [(ngModel)]="question"
+            name="question"
+            placeholder="E.g., How do coral reefs grow?"
+            required
+            />
+            <button type="submit" class="submit-btn">Get Answers</button>
+        </form>
+        <div *ngIf="answer" class="response">
+            <h2>AI Response:</h2>
+            <p>{{ answer }}</p>
+        </div>
+    </div>
+    <div class="home-image">
+        <swiper-container class="mySwiper">
+            <swiper-slide *ngFor="let image of images">
+                <div class="swiper-content">
+                    <h4 class="img-title">{{ image.title }}</h4>
+                    <img [src]="image.src" alt="{{ image.title }}">
+                </div>
+            </swiper-slide>
+        </swiper-container>
+        
+    </div>
+    
+</section>
