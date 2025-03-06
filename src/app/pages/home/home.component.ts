@@ -24,9 +24,9 @@ export class HomeComponent implements AfterViewInit {
   swiperParams: SwiperOptions = {};
   
   images = [
-    { src: '/assets/img/lagoa_rodrigo.jpeg', title: 'Lagoa Rodrigo de Freitas, Brazil.' },
-    { src: '/assets/img/condado_laguna.jpg', title: 'Laguna del Condado, Puerto Rico' },
-    { src: '/assets/img/leatherback.jpeg', title: 'Leatherback Turtles, Puerto Rico.' }
+    { src: 'assets/img/lagoa_rodrigo.jpeg', title: 'Lagoa Rodrigo de Freitas, Brazil.' },
+    { src: 'assets/img/condado_laguna.jpg', title: 'Laguna del Condado, Puerto Rico' },
+    { src: 'assets/img/leatherback.jpeg', title: 'Leatherback Turtles, Puerto Rico.' }
   ];
   
   constructor(private http: HttpClient) {}
